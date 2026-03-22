@@ -10,8 +10,10 @@
     "preview": "vite preview",
     "lint": "eslint ."
   },
-  "devDependencies": {
-    "eslint": "^10.1.0",
+  "dependencies": {
     "vite": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^10.1.0"
   }
 }
