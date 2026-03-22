@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.2752196">
+  <PropertyGroup>
+    <!-- Jalankan server Vite saat Start / Launch (bukan node app.js) -->
+    <StartupCommand>npm run dev</StartupCommand>
+    <!-- Folder proyek = tempat package.json; hindari salah cwd dari root solution -->
+    <StartupWorkingDirectory>$(MSBuildProjectDirectory)</StartupWorkingDirectory>
+  </PropertyGroup>
+</Project>
